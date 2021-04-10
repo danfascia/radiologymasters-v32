@@ -19,4 +19,4 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Video", name: "video", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
-      - { label: "Premium", name: "premium", widget: "boolean", default: false }
+      - { label: "Premium", name: "premium", widget: "boolean", default: false }`
