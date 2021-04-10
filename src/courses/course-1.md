@@ -1,0 +1,3 @@
+---
+title: Amazing course
+---

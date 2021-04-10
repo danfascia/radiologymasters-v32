@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo '' %}
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+    {% inline '@fontsource/inter@4.2.2/latin.css' %}
+    </style>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body class="bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-100">
+{{ content | safe }}
+
+<script>
+{% inline 'alpinejs@2.8.1/dist/alpine.js' %}
+</script>
+
+</body>
+</html>

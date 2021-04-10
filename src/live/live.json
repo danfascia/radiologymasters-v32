@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/live.njk" ,
+    "tags": ["live"]
+}

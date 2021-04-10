@@ -1,0 +1,23 @@
+<!-- header.njk -->
+<header class="bg-black text-white py-1 lg:py-3 px-3 lg:px-5 xl:px-12" >
+	<div class="flex items-center">
+	  <a href="/" id="logo" class="flex items-center lg:text-xl font-bold group">
+			<figure class="w-10 h-10">
+			{% include 'svg/gem.svg' %}
+			</figure>
+			<span class="hidden sm:inline">{{ site.title }}</span>
+		</a>
+    <nav class="hidden ml-auto space-x-1 xl:space-x-3 sm:flex items-center">
+		<a class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 rounded" href="/live">Live</a>
+		<a class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 rounded" href="/courses">Courses</a>
+		<a class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 rounded" href="/episodes">Episodes</a>
+		<a class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 rounded" href="/pricing">Pricing</a>
+		<a class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 rounded" href="/login">Login</a>
+		<a href="/account" class="text-gray-200 hover:bg-gray-800 transition px-3 py-1.5 inline-flex items-center rounded" >
+      	<img src="https://i.pravatar.cc/150?img=34" class="w-6 h-6 mr-2 rounded-full" alt="Daniel Fascia Avatar">
+      	<span>Daniel Fascia</span>
+    	</a>	
+    </nav>
+	</div>
+</header>
+<!-- / header.njk -->

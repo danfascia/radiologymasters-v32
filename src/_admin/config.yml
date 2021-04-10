@@ -1,0 +1,22 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "src/assets/img"
+
+collections:
+  - name: "episodes"
+    label: "Episodes"
+    folder: "src/episodes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Video", name: "video", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Premium", name: "premium", widget: "boolean", default: false }
