@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
     
     // PLUGINS
     eleventyConfig.addPlugin(pluginTailwindCSS, {
-        src: "src/css/style.css"
+        src: "src/css/*"
     })
 
     eleventyConfig.addPlugin(embedEverything, {
